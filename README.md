@@ -19,7 +19,7 @@ Plan mobile data for a team or a device fleet. Add laptops (remote workers), wor
 All figures are rough starting points, not measurements. Replace them with your own usage stats.
 
 ## Cost line
-Shows the cost at the NXTL pay-as-you-go rate for the chosen country, using the Cheapest-network rate, which is the default setting. Rates load live from the public endpoint `https://nxtlsim.com/wp-json/nxtl-app/v1/pricing/countries`. If it can't be reached, the app uses the bundled `docs/rates.json` snapshot (checked 2026-10-26). Each device that connects directly needs its own eSIM, activated on that device. Business accounts: https://nxtlsim.com/for-business/
+Shows the cost at the NXTL pay-as-you-go rate for the chosen country, using the lowest published network rate for that country (you pay the rate of the network actually used), with the highest listed rate shown as the upper bound. Rates load live from the public endpoint `https://nxtlsim.com/wp-json/nxtl-app/v1/pricing/countries`. If it can't be reached, the app uses the bundled `docs/rates.json` snapshot (checked 2026-10-26). Each device that connects directly needs its own eSIM, activated on that device. Business accounts: https://nxtlsim.com/for-business/
 
 ## Share links
 `?i=laptop:3,router:1:500&c=Germany&days=30` (format `preset:qty[:mbPerDay]`)
